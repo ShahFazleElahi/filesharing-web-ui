@@ -24,6 +24,7 @@ div{
 }
 
 h1{
+    color: #006A4E;
     font-size: 50px;
     justify-content: center;
     align-items: center;
@@ -33,7 +34,8 @@ h1{
 }
 
 span{
-    color: red;
+    color: #F42A41
+    ;
 }
 
 p{
@@ -45,7 +47,7 @@ p{
 }
 
 .a-1{
-    background-color: red;
+    background-color: #006A4E;
     padding: 10px;
     font-size: 10px;
     color: white;
@@ -57,7 +59,7 @@ p{
 .a-2{
     padding: 10px;
     font-size: 10px;
-    color: black;
+    color: #F42A41;
     margin-bottom: 10px;
     justify-content: center;
     align-items: center;
@@ -90,6 +92,17 @@ input, ::placeholder{
     margin-top: 20px;
     color: black;
     font-size: 10px;
+}
+
+footer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+footer img{
+    width: 200px;
 }
 
 /* Styles for tablets in portrait mode */
